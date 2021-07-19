@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Environments>
+	<QAEnvironment value='QA01' testingExecutionStatus='True'>
+
+		<BrowserName>Chrom</BrowserName>
+		<BrowserPath>/CucumberFramework/DriverExecutable</BrowserPath>
+		<!-- <ExecutionType>Sequential</ExecutionType> <DriverType>Local</DriverType> -->
+		<WindowMaximize>True</WindowMaximize>
+		<URL>https://wwww.QA01-xyz.com</URL>
+		<ImplicitWait>30 </ImplicitWait>
+	</QAEnvironment>
+	<QAEnvironment value='QA02'	testingExecutionStatus='False'>
+
+		<BrowserName>Chrom</BrowserName>
+		<BrowserPath>/CucumberFramework/DriverExecutable</BrowserPath>
+		<!-- <ExecutionType>Sequential</ExecutionType> <DriverType>Local</DriverType> -->
+		<WindowMaximize>True</WindowMaximize>
+		<URL>https://wwww.QA01-xyz.com</URL>
+		<ImplicitWait>30 </ImplicitWait>
+	</QAEnvironment>
+
+
+
+
+</Environments>
