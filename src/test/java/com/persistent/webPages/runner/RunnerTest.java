@@ -21,7 +21,7 @@ import org.junit.runner.*;
 // ~@Purchase,~@MyAccount,@login,~@SocialNetworkin
 @CucumberOptions(features = "src/test/resources", glue = "com.persistent.StepDef", plugin = {
 		"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html" }, tags = {
-				"@Purchase,@MyAccount,@login,@SocialNetworking" }, monochrome = true)
+				"@Purchase,@MyAccount,@login,~@SocialNetworking" }, monochrome = true)
 public class RunnerTest {
 
 	@AfterClass
