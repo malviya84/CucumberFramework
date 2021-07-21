@@ -38,10 +38,10 @@ Scenario: User should be able to perform login with valid credential
 	Given User has opened application on browser and application home page is loaded 
 	When Perform click on signIn page
   And application Login page is displayed
-  And User attempt login with valid username as "abcd@efgh.com" and password as "123456789"
-  Then User should navigated to My account Page
-  And able to verify below tabs are displayed
-  And User may perform Logout from application
+ # And User attempt login with valid username as "abcd@efgh.com" and password as "123456789"
+  #Then User should navigated to My account Page
+  #And able to verify below tabs are displayed
+  #And User may perform Logout from application
  
     
 

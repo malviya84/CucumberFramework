@@ -25,6 +25,6 @@ Feature: User should be able to navigate application social pages on social netw
     Given User has opened application on browser and application home page is loaded 
     When User click on twitter icon
     And  New twitter page is displayed 
-    Then User should be able to perform search on twitter page with search Term as "Persistent"
-    And switch back to parent window after closing twitter page
+   # Then User should be able to perform search on twitter page with search Term as "Persistent"
+   # And switch back to parent window after closing twitter page
     

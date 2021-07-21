@@ -12,9 +12,9 @@ Feature: Product Checkout
     Given User has opened application on browser and application home page is loaded
     And Perform click on signIn page
     And application Login page is displayed
-    And User attempt login with valid username as "abcd@efgh.com" and password as "123456789"
-    When User Select category as "Women>Tops>T-shirts"
-    And Add product a product "Faded Short Sleeve T-shirts" to cart
-    Then User should be able to complete checkout process
-     And User may perform Logout from application
+    #And User attempt login with valid username as "abcd@efgh.com" and password as "123456789"
+    #When User Select category as "Women>Tops>T-shirts"
+    #And Add product a product "Faded Short Sleeve T-shirts" to cart
+    #Then User should be able to complete checkout process
+    # And User may perform Logout from application
     

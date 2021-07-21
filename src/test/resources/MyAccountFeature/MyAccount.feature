@@ -25,10 +25,10 @@ Feature: Users Activities on My account page
     Given User has opened application on browser and application home page is loaded
     And Perform click on signIn page
     And application Login page is displayed
-    And User attempt login with valid username as "abcd@efgh.com" and password as "123456789"
-    And User should navigated to My account Page
-    When Click on UPdate Address button
-    And Update City as "XYZ" and Click on Save button
-    Then Verify that Updated Changes are saved
-    And User is still on MyAccount Page
-     And User may perform Logout from application
+    #And User attempt login with valid username as "abcd@efgh.com" and password as "123456789"
+    #And User should navigated to My account Page
+    #When Click on UPdate Address button
+    #And Update City as "XYZ" and Click on Save button
+    #Then Verify that Updated Changes are saved
+    #And User is still on MyAccount Page
+    # And User may perform Logout from application
